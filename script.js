@@ -1,6 +1,6 @@
 document.getElementById("form").addEventListener('submit', function(e){
     e.preventDefault();
-    let inputs = Array.from(document.getElementsByClassName("formulario"));
+    let inputs = Array.from(document.getElementsByClassName("form-control"));
     let texto = []
     for(let i = 0; i<inputs.length; i++){
         texto.push(inputs[i].value.trim())
