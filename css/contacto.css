@@ -68,10 +68,9 @@ nav a {
 }
 
 
-form {
-    max-width: 500px;
-    margin: 40px auto;
-    padding: 30px;
+#form {
+    max-width: 30rem;
+    padding: 1rem;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -79,7 +78,12 @@ form {
 
 .btn{
     background-color:#D93E1B;
-    border-color: #D93E1B ;
+    border-color: #D93E1B;
+}
+
+.btn:hover{
+    background-color: #FBE64C;
+    border-color: #FBE64C;
 }
 
 
@@ -90,41 +94,10 @@ form h2 {
 }
 
 
-.formulario {
-    font-family:'Times New Roman', Times, serif;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #F2D64B;
-    border-radius: 8px;
-    font-size: 1rem;
-    box-sizing: border-box;
-}
-
-.formulario:focus {
-    border: 2px solid #d93d1a; 
-    outline: none;
-}
 
 
-#bttnEnviar {
-    width: 100%;
-    padding: 12px;
-    background-color: #F2A341;
-    color: #1C2621;
-    font-size: 1rem;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-sizing: border-box;
-}
 
 
-#bttnEnviar:hover {
-    background-color: #D93D1A; 
-    color: #fff;
-}
 
 footer {
     background-color: #1c2621;
