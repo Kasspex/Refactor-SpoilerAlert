@@ -1,55 +1,36 @@
-body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+/* Estilos para el Navbar */
+.navbar-gradient {
+    background: linear-gradient(to right, #d93e1b, #f3b342, #f9ebc0);
   }
-
-  .hero-section {
-    background: linear-gradient(90deg, #d93e1b, #f3b342);
-    color: white;
-    padding: 6rem 0 4rem 0;
+  
+  .navbar-brand {
+    color: white !important; /* Asegura que el texto sea blanco */
+  }
+  
+  .nav-link {
+    color: white !important; /* Enlaces blancos */
+  }
+  
+  .nav-link:hover {
+    color: #141b1a !important; /* Texto cambia a negro al pasar el mouse */
+  }
+  
+  /* Estilos para el Header */
+  header {
+    background: linear-gradient(to right, #d93e1b, #f3b342, #f9ebc0);
+    color: #fff; /* Texto blanco para contrastar con el fondo */
+    padding: 5rem 0;
     text-align: center;
   }
-
-  .navbar {
-    background-color: transparent;
+  
+  header h1 {
+    color: inherit; /* Hereda el color blanco del header */
   }
-
-  .navbar .nav-link {
-    color: white !important;
-    font-weight: 500;
-    margin-left: 1rem;
+  
+  header p {
+    color: inherit !important; /* Hereda el color blanco del header */
   }
-
-  .navbar .nav-link:hover {
-    color: #f9ebc0 !important;
-  }
-
-  .navbar-brand {
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    color: white !important;
-  }
-
-  .navbar-brand img {
-    height: 40px;
-    margin-right: 10px;
-  }
-
-  .hero-section h1 {
-    font-weight: 800;
-    font-size: 3rem;
-  }
-
-  .hero-section p {
-    font-size: 1.25rem;
-    margin-top: 1rem;
-  }
-
-body{
-    background-color: #F2DFBB ;
-    font-family:'Times New Roman', Times, serif;
-}
+  
 
 .blog-container{
     max-width: 90rem; /* Ajusta el ancho del container */
