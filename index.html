@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio SpoilerAlert</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -16,57 +17,275 @@
         </nav>
     </header>
     <section>
-        <div class="blog-container "> 
-            <div class="blog-card">
-                <img src="https://ae01.alicdn.com/kf/S6369de5e7f664c6abede8ed5c220bcc2o.jpg" alt="poster fightclub">
-                <h3>FightClub</h3>
-                <p>El narrador sufre de un trastorno mental y descubre que Tyler Durden, el líder del club de la pelea, es en realidad una proyección de su mente, lo que lo lleva a destruir su alter ego para recuperar el control.</p>
 
-        </div>
+                 <div class="container-fluid">   <!--Es un contenedor que ocupa el 100% del ancho de la pantalla. -->
+                <div class="row">  <!-- Crea una fila horizontal que va dentro de un container. -->
+                    <!-- izquierda -->
+                <div class="col-md-2 bg-light border-end" style="min-height: 100vh;">   <!-- (100vh) Esto hace que esa columna tenga al menos el alto de toda la pantalla. --> <!--  (col-md-2) Esto define cuántas columnas va a ocupar ese bloque dentro de la fila. -->
+                    <!-- vacio por ahora --> 
+                  </div>
 
-            <div class="blog-card">
-                <img src="https://i.pinimg.com/474x/1c/63/d2/1c63d274fa70ffaa88b4f9eba86f0e0e.jpg" alt="poster fightclub">
-                <h3>Interstellar</h3>
-                <p>Cooper viaja a través de un agujero negro y entra en una dimensión donde puede comunicarse con su hija en el pasado, ayudando a salvar a la humanidad, aunque queda atrapado en el espacio-tiempo hasta ser rescatado.</p>
-            </div>  
-            <div class="blog-card">
-                <img src="https://i.pinimg.com/474x/99/f8/70/99f8702093bd74454c4636a33f558c4a.jpg" alt="poster fightclub">
-                <h3>Joker</h3>
-                <p>Arthur Fleck se hunde en la locura tras ser rechazado por la sociedad, asesina a un presentador en vivo y se convierte en un ícono del caos en Gotham, inspirando disturbios y adoptando completamente su identidad como el Joker.</p>
-            </div>
-            <div class="blog-card">
-                <img src="https://i.pinimg.com/474x/08/1b/0c/081b0cc32367248cf672acadce57c8b1.jpg" alt="poster fightclub">
-                <h3>Back To The Future</h3>
-                <p>Marty viaja accidentalmente al pasado, altera la historia de sus padres y casi borra su existencia, pero logra regresar a su tiempo con ayuda de Doc, solo para descubrir que el futuro de su familia ha cambiado para bien.</p>
-            </div>
-            <div class="blog-card">
-                <img src="https://i.pinimg.com/474x/97/f0/c1/97f0c1ac7d0c12489c2bc349c50e5193.jpg" alt="poster fightclub">
-                <h3>Don't Look Up</h3>
-                <p>Un cometa destructor se dirige a la Tierra, pero el gobierno y la gente lo ignoran hasta que es demasiado tarde, y al final, el mundo es destruido mientras un grupo de millonarios huye al espacio solo para morir igualmente.</p>
-            </div>
-            <div class="blog-card">
-                <img src="https://i.pinimg.com/474x/de/d4/c7/ded4c7e3857572436610857eca725090.jpg" alt="poster fightclub">
-                <h3>The Matrix</h3>
-                <p>Neo descubre que vive en una simulación digital creada por máquinas, aprende a controlarla y acepta su papel como El Elegido, enfrentando al sistema para liberar a la humanidad atrapada en la ilusión de la Matrix.</p>
-            </div>
-            <div class="blog-card">
-                <img src="https://i.pinimg.com/474x/ce/0b/8d/ce0b8d1a4aae8407e787a90b43ea825d.jpg" alt="poster fightclub">
-                <h3>The Exorcist</h3>
-                <p>Una niña es poseída por un demonio, y tras varios intentos fallidos de exorcismo, el padre Karras decide sacrificarse, atrayendo al demonio hacia sí mismo y lanzándose por una ventana para salvarla.</p>
-            </div>            <div class="blog-card">
-                <img src="https://i.pinimg.com/474x/c5/0b/3d/c50b3dec881947ccfac28d87da97df9c.jpg" alt="poster fightclub">
-                <h3>The Truman Show</h3>
-                <p>Truman ha vivido toda su vida dentro de un reality show sin saberlo, y tras una serie de descubrimientos y señales extrañas, finalmente escapa del mundo falso para enfrentar la realidad por primera vez.</p>
-            </div>
-        </div>
+                  <!-- centro -->
+                  <div class="col-md-8 p-4"> 
+                    <div  id="cursos" class="container">
+                        <div class="row">
+                
+                          <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                              <img src="https://ae01.alicdn.com/kf/S6369de5e7f664c6abede8ed5c220bcc2o.jpg" class="card-img-top" alt="poster fightclub">
+                              <div class="card-body">
+                                <h5 class="card-title">FightClub</h5>
+                                <p class="card-text"> Dato curioso: El jabón que Tyler fabrica está hecho con grasa humana robada de clínicas de liposucción.
+
+                                </p>
+                                <a href="#" class="btn" style="background-color: #f3b342; color: black; border: none;" data-bs-toggle="modal" data-bs-target="#miModal1">Ver más</a>
+
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="miModal1" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">FightClub</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <p> El protagonista, un oficinista con insomnio crónico, se ve atrapado en una rutina sin sentido. Conoce a Tyler Durden y juntos forman un club de peleas clandestino. A medida que el club evoluciona en un grupo anarquista, el narrador se da cuenta de que Tyler no existe realmente: es una manifestación de su propio trastorno de identidad. Finalmente, decide eliminar a Tyler para recuperar su cordura.
+                                  </p>
+                                  <p>Duración: 2 horas y 19 minutos</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                              <img src="https://i.pinimg.com/474x/1c/63/d2/1c63d274fa70ffaa88b4f9eba86f0e0e.jpg" class="card-img-top" alt="Interestelar">
+                              <div class="card-body">
+                                <h5 class="card-title">Interestelar</h5>
+                                <p class="card-text">Dato curioso: Para hacer más realistas los efectos del agujero negro, el director Christopher Nolan trabajó con un físico teórico y los gráficos generados se usaron en estudios científicos reales.</p>
+                                <a href="#" class="btn" style="background-color: #f3b342; color: black; border: none;" data-bs-toggle="modal" data-bs-target="#miModal2">Ver más</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="miModal2" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">Diseño Avanzado con CSS</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <p>La Tierra está muriendo y Cooper, un ex piloto de la NASA, se une a una misión espacial para encontrar un nuevo hogar para la humanidad. Después de atravesar un agujero negro, entra en una dimensión de cinco dimensiones donde logra enviar mensajes al pasado para salvar a la especie humana, aunque él queda atrapado en ese espacio-tiempo hasta ser rescatado.</p>
+                                  <p>Duración: 2 horas y 49 minutos</p>
+            
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                              <img src="https://i.pinimg.com/474x/99/f8/70/99f8702093bd74454c4636a33f558c4a.jpg" class="card-img-top" alt="Joker">
+                              <div class="card-body">
+                                <h5 class="card-title">Joker</h5>
+                                <p class="card-text"> Dato curioso: Joaquin Phoenix improvisó varias escenas, incluyendo el famoso baile en las escaleras.</p>
+                                <a href="#" class="btn" style="background-color: #f3b342; color: black; border: none;" data-bs-toggle="modal" data-bs-target="#miModal3">Ver más</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="miModal3" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">Joker</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Arthur Fleck, un comediante fracasado, sufre constantes abusos y rechazos por parte de la sociedad. Su salud mental se deteriora y, tras una serie de asesinatos, se convierte en el símbolo de una revuelta social. Asesina a un conductor de televisión en vivo, asumiendo su nueva identidad como el Joker.</p>
+                                  <p>Duración: 2 horas y 2 minutos</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                              <img src="https://i.pinimg.com/474x/08/1b/0c/081b0cc32367248cf672acadce57c8b1.jpg" class="card-img-top" alt="Back to the Future">
+                              <div class="card-body">
+                                <h5 class="card-title">Back to the Future</h5>
+                                <p class="card-text">Dato curioso: Michael J. Fox grababa esta película de noche mientras filmaba la serie Family Ties de día. </p>
+                                <a href="#" class="btn" style="background-color: #f3b342; color: black; border: none;" data-bs-toggle="modal" data-bs-target="#miModal4">Ver más</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="miModal4" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">Back To the Future</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Marty McFly viaja accidentalmente al pasado con una máquina del tiempo creada por Doc Brown. Allí interfiere con el romance de sus padres y casi borra su propia existencia. Logra arreglar todo justo a tiempo y regresa al presente, donde descubre que su familia ahora lleva una vida mucho mejor.</p>
+                                  <p>Duración: 1 hora y 56 minutos</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                              <img src="https://i.pinimg.com/474x/97/f0/c1/97f0c1ac7d0c12489c2bc349c50e5193.jpg" class="card-img-top" alt="Don't look Up">
+                              <div class="card-body">
+                                <h5 class="card-title">Don't look Up</h5>
+                                <p class="card-text"> Dato curioso: El cometa fue usado como metáfora del cambio climático y la indiferencia global.</p>
+                                <a href="#" class="btn" style="background-color: #f3b342; color: black; border: none;" data-bs-toggle="modal" data-bs-target="#miModal5">Ver más</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="miModal5" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">Don't look Up</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Dos astrónomos descubren un cometa que destruirá la Tierra, pero sus advertencias son ignoradas por la política, los medios y la población. Cuando al fin reaccionan, ya es demasiado tarde. El cometa impacta y destruye todo. Un grupo de millonarios huye al espacio… solo para morir igual.</p>
+                                  <p>Duración: 2 horas y 18 minutos</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                              <img src="https://i.pinimg.com/474x/de/d4/c7/ded4c7e3857572436610857eca725090.jpg" class="card-img-top" alt="The Matrix">
+                              <div class="card-body">
+                                <h5 class="card-title">The Matrix</h5>
+                                <p class="card-text">Dato curioso: Para la escena del "bullet time", se usó una técnica con más de 100 cámaras alineadas.</p>
+                                <a href="#" class="btn" style="background-color: #f3b342; color: black; border: none;" data-bs-toggle="modal" data-bs-target="#miModal6">Ver más</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="miModal6" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">The Matrix</h5>
+                                  <p class="card-text"></p>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Neo descubre que el mundo en el que vive es una simulación controlada por máquinas. Aprende a manipular la Matrix desde dentro y se convierte en “El Elegido”, con el poder de cambiar las reglas del mundo virtual. Se une a la resistencia para liberar a la humanidad.</p>
+                                  <p>Duración: 2 horas y 16 minutos</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                              <img src="https://i.pinimg.com/474x/ce/0b/8d/ce0b8d1a4aae8407e787a90b43ea825d.jpg" class="card-img-top" alt="The Exorcist">
+                              <div class="card-body">
+                                <h5 class="card-title">The Exorcist</h5>
+                                <p class="card-text"> Dato curioso: Durante la filmación ocurrieron varios accidentes y muertes, lo que dio origen a la leyenda de que el set estaba maldito.</p>
+                                <a href="#" class="btn" style="background-color: #f3b342; color: black; border: none;" data-bs-toggle="modal" data-bs-target="#miModal7">Ver más</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="miModal7" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">The Exorcist</h5>
+                                  <p class="card-text"></p>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Una niña es poseída por un demonio y dos sacerdotes intentan exorcizarla. El padre Karras, al ver que no pueden expulsarlo, se sacrifica dejando que el demonio lo posea a él y luego se lanza por una ventana, salvando a la niña.</p>
+                                  <p>Duración:  2 horas y 2 minutos (versión original), 2 horas y 12 minutos (versión extendida del director)</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                             <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                              <img src="https://i.pinimg.com/474x/c5/0b/3d/c50b3dec881947ccfac28d87da97df9c.jpg" class="card-img-top" alt="The Truman Show ">
+                              <div class="card-body">
+                                <h5 class="card-title">The Truman Show </h5>
+                                <p class="card-text">Dato curioso: Después del estreno, se documentaron casos reales de personas que creían estar en un “Truman Show” personal. El fenómeno fue nombrado "síndrome de Truman".</p>
+                                <a href="#" class="btn" style="background-color: #f3b342; color: black; border: none;" data-bs-toggle="modal" data-bs-target="#miModal8">Ver más</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal fade" id="miModal8" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">The Truman Show </h5>
+                                  <p class="card-text"></p>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Truman ha vivido toda su vida dentro de un set de televisión sin saberlo, siendo grabado las 24 horas para un reality. Poco a poco comienza a sospechar y finalmente escapa del mundo falso para conocer la realidad.</p>
+                                  <p>Duración: 1 hora y 43 minutos</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+                        </div>
+                      </div>
+                      
+
+                  </div>
+                  <!-- derecha -->
+                  <div class="col-md-2 bg-light border-start" style="min-height: 100vh;">
+                    <!-- vacio por ahora -->
+                  </div>
+            
+                </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <footer>
+        <div class="footer-content">
+          <p><i class="fas fa-users"></i> Autores: Juan Mendivelso, Ana Martinez, Andres Homez, Monica Calvo, Sergio Roa</p>
+          <p><i class="fas fa-envelope"></i> Contacto: contacto@ejemplo.com</p>
+          <p><i class="fas fa-code"></i> SpoilerAlert</p>
+        </div>
+      </footer>
 </body>
-<footer>
-    <div class="footer-content">
-      <p><i class="fas fa-users"></i> Autores: Juan Mendivelso, Ana Martinez, Andres Homez, Monica Calvo, Sergio Roa</p>
-      <p><i class="fas fa-envelope"></i> Contacto: contacto@ejemplo.com</p>
-      <p><i class="fas fa-code"></i> SpoilerAlert</p>
-    </div>
-  </footer>
+
+</body>
 
 </html>
