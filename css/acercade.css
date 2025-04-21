@@ -23,7 +23,19 @@ body {
     }
     h1{
         color: #1C2621;
+        background-color: #F2A341;
+        text-align:center;
+         padding: 20px;
+        font-family: 'Times New Roman', Times, serif
         
+    }
+    .sub{
+        color: #1C2621;
+        text-align: center;
+        background-color: #F2A341;
+        text-align:center;
+         padding: 20px;
+        font-family: 'Times New Roman', Times, serif
     }
     nav a:hover {
         background-color: #D93D1A;
@@ -60,7 +72,7 @@ body {
         font-family: 'Times New Roman', Times, serif
           }
 
-.Imagen {
+.img-fluid {
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -74,7 +86,20 @@ body {
     font-size: 1.1rem;
     max-width: 700px;
     margin: 0 auto;
-    text-align: justify;  }      
+    text-align: justify;  }     
+    
+    
+.card {
+        width: 14rem; 
+        font-size: 1.1rem; 
+        text-align: center; 
+        margin: 10px;
+      }
+      
+.card img {
+        height: 200px;     
+        object-fit: cover; 
+      } 
     
     
     footer {
