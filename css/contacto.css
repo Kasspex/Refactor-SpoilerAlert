@@ -18,46 +18,7 @@ h1{
     color: #1C2621;
     
 }
-nav a:hover {
-    background-color: #D93D1A;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 4px 4px 20px rgba(0,0,0,0.1);   
-}
-nav a {
-    font-size: 80%;
-    justify-content: center;
-    text-decoration: none;
-    gap: 1rem;
-    margin-left: 2rem;
-    color: black;
-}
 
-header {
-    font-family:'Times New Roman', Times, serif;
-    background-color: #F2A341;
-    padding: 2rem;
-    text-align: center;
-    font-size: 2rem;
-}
-h1{
-    color: #1C2621;
-    
-}
-nav a:hover {
-    background-color: #D93D1A;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 4px 4px 20px rgba(0,0,0,0.1);   
-}
-nav a {
-    font-size: 80%;
-    justify-content: center;
-    text-decoration: none;
-    gap: 1rem;
-    margin-left: 2rem;
-    color: black;
-}
 
 
 .titulo {
@@ -87,37 +48,6 @@ nav a {
 }
 
 
-form h2 {
-    font-size: 1.1rem;
-    color: #646d69; 
-    margin-bottom: 8px;
-}
-
-
-
-
-
-
-
-footer {
-    background-color: #1c2621;
-    color: #f1f1f1;
-    text-align: center;
-    padding: 75px 50px;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
-    border-top: 4px solid #D93D1A;
-    box-shadow: 0 -2px 10px #1c2621;
-  }
-  
-  footer i {
-    margin-right: 8px;
-    color: #f2a341;
-  }
-  
-  footer p {
-    margin: 8px 0;
-  }
 
 
 
