@@ -1,36 +1,70 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; /* Tamaño de fuente base */
+}
+
 /* Estilos para el Navbar */
 .navbar-gradient {
-    background: linear-gradient(to right, #d93e1b, #f3b342, #f9ebc0);
-  }
-  
-  .navbar-brand {
-    color: white !important; /* Asegura que el texto sea blanco */
-  }
-  
-  .nav-link {
-    color: white !important; /* Enlaces blancos */
-  }
-  
-  .nav-link:hover {
-    color: #141b1a !important; /* Texto cambia a negro al pasar el mouse */
-  }
-  
-  /* Estilos para el Header */
-  header {
-    background: linear-gradient(to right, #d93e1b, #f3b342, #f9ebc0);
-    color: #fff; /* Texto blanco para contrastar con el fondo */
-    padding: 5rem 0;
+    background: linear-gradient(to right, #d93e1b, #f3b342, #f9ebc0); 
+    padding: 1rem 0; /* Ajusta el espaciado vertical */
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 1.5rem; /* Aumenta el tamaño de la fuente */
+    font-weight: bold;
+}
+
+.nav-link {
+    color: rgba(81, 57, 57, 0.92) !important;
+    font-size: 1.2rem; /* Aumenta el tamaño de la fuente */
+    transition: color 0.3s ease; /* Transición suave */
+    margin-left: 1rem; /* Espacio entre los enlaces */
+}
+
+.nav-link:hover {
+    color: #f3b342 !important; /* Hover naranja */
+}
+
+/* Estilos para el Header */
+header {
+    background: linear-gradient(to right, #d93e1b, #f3b342, #f9ebc0); 
+    color: white;
+    padding: 6rem 0;
     text-align: center;
-  }
-  
-  header h1 {
-    color: inherit; /* Hereda el color blanco del header */
-  }
-  
-  header p {
-    color: inherit !important; /* Hereda el color blanco del header */
-  }
-  
+}
+
+header h1 {
+    font-size: 4rem; /* Aumenta el tamaño de la fuente */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.5rem; /* Aumenta el tamaño de la fuente */
+    color: rgba(255, 255, 255, 0.8); /* Blanco ligeramente transparente */
+}
+
+/* Estilos para secciones oscuras */
+.dark-section {
+    background-color: #141b1a; /* Color de fondo oscuro */
+    color: white; /* Texto blanco */
+    padding: 4rem 0; /* Espaciado vertical */
+}
+
+.dark-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.dark-section p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
 
 .blog-container{
     max-width: 90rem; /* Ajusta el ancho del container */
