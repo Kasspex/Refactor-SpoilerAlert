@@ -5,21 +5,65 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
-header {
-    font-family:'Times New Roman', Times, serif;
-    background-color: #F2A341;
-    padding: 2rem;
+/* Estilos para el Navbar */
+.navbar-gradient {
+    background: linear-gradient(to right, #d93e1b, #f3b342, #f9ebc0); 
+    padding: 1rem 0; /* Ajusta el espaciado vertical */
+  }
+  
+  .navbar-brand {
+    color: white !important;
+    font-size: 1.5rem; /* Aumenta el tamaño de la fuente */
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: rgba(81, 57, 57, 0.92) !important;
+    font-size: 1.2rem; /* Aumenta el tamaño de la fuente */
+    transition: color 0.3s ease; /* Transición suave */
+    margin-left: 1rem; /* Espacio entre los enlaces */
+  }
+  
+  .nav-link:hover {
+    color: #f3b342 !important; /* Hover naranja */
+  }
+  
+  /* Estilos para el Header */
+  header {
+    background: linear-gradient(to right, #d93e1b, #f3b342, #f9ebc0); 
+    color: white;
+    padding: 6rem 0;
     text-align: center;
-    font-size: 2rem;
-}
-h1{
-    color: #1C2621;
-    
-}
-
-
+  }
+  
+  header h1 {
+    font-size: 4rem; /* Aumenta el tamaño de la fuente */
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  header p {
+    font-size: 1.5rem; /* Aumenta el tamaño de la fuente */
+    color: rgba(255, 255, 255, 0.8); /* Blanco ligeramente transparente */
+  }
+  
+  /* Estilos para secciones oscuras */
+  .dark-section {
+    background-color: #141b1a; /* Color de fondo oscuro */
+    color: white; /* Texto blanco */
+    padding: 4rem 0; /* Espaciado vertical */
+  }
+  
+  .dark-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .dark-section p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
 
 .titulo {
     text-align: center;
@@ -43,12 +87,80 @@ h1{
 }
 
 .btn:hover{
-    background-color: #FBE64C;
-    border-color: #FBE64C;
+    background-color:#D93E1B;
+    border-color: #D93E1B;
+}
+
+
+form h2 {
+    font-size: 1.1rem;
+    color: #646d69; 
+    margin-bottom: 8px;
 }
 
 
 
+
+/* Títulos y subtítulos */
+footer h4, footer h5 {
+    color: #f3b342;
+  }
+  
+  /* Enlaces */
+  footer a {
+    color: #d93e1b;
+  }
+  
+  footer a:hover {
+    color: #f3b342;
+    text-decoration: underline;
+  }
+  
+  /* Lista de autores */
+  footer ul li {
+    color: #b8ac88;
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  /* Íconos de redes sociales */
+  footer .fab {
+    transition: transform 0.3s;
+  }
+  
+  footer .fab:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Botones sociales */
+  footer .btn-outline-light {
+    border: 2px solid #f3b342;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  footer .btn-outline-light:hover {
+    transform: scale(1.1);
+    background-color: #f3b342;
+    color: #141b1a;
+  }
+  
+  /* Campos del formulario */
+  footer input[type="email"] {
+    border-radius: 0.375rem 0 0 0.375rem;
+  }
+  
+  footer button.btn-warning {
+    background-color: #f3b342;
+    border-color: #f3b342;
+    color: #141b1a;
+  }
+  
+  footer button.btn-warning:hover {
+    background-color: #d93e1b;
+    border-color: #d93e1b;
+    color: white;
+  }
+  
 
 
     
