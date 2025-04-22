@@ -66,113 +66,103 @@ body {
     
         #contenido-principal {
     
-            background-color: white;
-            padding: 30px;
-            margin-top: 30px;
-            border-radius: 12px;
-            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-    .subtitulo{
-            margin-bottom: 15px;
-            color: #1c1c1c;
-            text-align: center; 
-            font-weight: bold ;
-            font-size:x-large;
-            font-family: 'Times New Roman', Times, serif
-              }
+        background-color: white;
+        padding: 30px;
+        margin-top: 30px;
+        border-radius: 12px;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
-    .img-fluid {
-        width: 180px;
-        height: 180px;
-        border-radius: 50%;
-        object-fit: cover;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        margin: 0 auto 20px;
-        display: block; }    
-    
-    
-    .descripcion {
-        font-size: 1.1rem;
-        max-width: 700px;
-        margin: 0 auto;
-        text-align: justify;  }     
-        
-        
-    .card {
-            width: 14rem; 
-            font-size: 1.1rem; 
-            text-align: center; 
-            margin: 10px;
+.subtitulo{
+        margin-bottom: 15px;
+        color: #1c1c1c;
+        text-align: center; 
+        font-weight: bold ;
+        font-size:x-large;
+        font-family: 'Times New Roman', Times, serif
           }
-          
-    .card img {
-            height: 200px;     
-            object-fit: cover; 
-          } 
-        
-  
+
+.Imagen {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0 auto 20px;
+    display: block; }    
+
+
+.descripcion {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify;  }      
+    
+
+
 /* Títulos y subtítulos */
 footer h4, footer h5 {
-    color: #f3b342;
-  }
-  
-  /* Enlaces */
-  footer a {
-    color: #d93e1b;
-  }
-  
-  footer a:hover {
-    color: #f3b342;
-    text-decoration: underline;
-  }
-  
-  /* Lista de autores */
-  footer ul li {
-    color: #b8ac88;
-    font-size: 1rem;
-    margin-bottom: 8px;
-  }
-  
-  /* Íconos de redes sociales */
-  footer .fab {
-    transition: transform 0.3s;
-  }
-  
-  footer .fab:hover {
-    transform: scale(1.2);
-  }
-  
-  /* Botones sociales */
-  footer .btn-outline-light {
-    border: 2px solid #f3b342;
-    transition: transform 0.3s, background-color 0.3s;
-  }
-  
-  footer .btn-outline-light:hover {
-    transform: scale(1.1);
-    background-color: #f3b342;
-    color: #141b1a;
-  }
-  
-  /* Campos del formulario */
-  footer input[type="email"] {
-    border-radius: 0.375rem 0 0 0.375rem;
-  }
-  
-  footer button.btn-warning {
-    background-color: #f3b342;
-    border-color: #f3b342;
-    color: #141b1a;
-  }
-  
-  footer button.btn-warning:hover {
-    background-color: #d93e1b;
-    border-color: #d93e1b;
-    color: white;
-  }
-  
+  color: #f3b342;
+}
+
+/* Enlaces */
+footer a {
+  color: #d93e1b;
+}
+
+footer a:hover {
+  color: #f3b342;
+  text-decoration: underline;
+}
+
+/* Lista de autores */
+footer ul li {
+  color: #b8ac88;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+/* Íconos de redes sociales */
+footer .fab {
+  transition: transform 0.3s;
+}
+
+footer .fab:hover {
+  transform: scale(1.2);
+}
+
+/* Botones sociales */
+footer .btn-outline-light {
+  border: 2px solid #f3b342;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+footer .btn-outline-light:hover {
+  transform: scale(1.1);
+  background-color: #f3b342;
+  color: #141b1a;
+}
+
+/* Campos del formulario */
+footer input[type="email"] {
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+
+footer button.btn-warning {
+  background-color: #f3b342;
+  border-color: #f3b342;
+  color: #141b1a;
+}
+
+footer button.btn-warning:hover {
+  background-color: #d93e1b;
+  border-color: #d93e1b;
+  color: white;
+}
+
+
+
   
